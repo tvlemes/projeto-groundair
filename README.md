@@ -8,7 +8,7 @@ Foi utilizado o protocolo <b>MQTT - Mosquitto</b> juntamente com o <b>Kafka</b> 
 
 Foi criado as camadas <b>BRONZE/RAW</b>, <b>SILVER</b> e <b>GOLD</b> para o <b>Data Lakehouse</b>.
 
-![](/images/print.png)
+![](/images/print.PNG)
 
 <hr>
 
