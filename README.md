@@ -1,10 +1,10 @@
 #  Projeto GroundAir
 
-<div style="color:red">EM DESENVOLVIMENTO</div>
+<p style="color:red">EM DESENVOLVIMENTO</p>
 
 Este projeto tem como objetivo principal a criação de um <b>Big Data</b> para o monitoramento de temperatura máxima e mínima, pressão atmosférica, umidade do solo, entre outros dados, utilizando a API <b>Open Weather</b> e sensores <b>IoT</b> conectados ao computador por meio de <b>Wireless</b> - conexão sem fio. 
 
-Foi utilizado o protocolo <b>MQTT</b> juntamente com o <b>Kafka</b> para realizar a coleta dos dados dos sensores e a API. Após a coleta dos dados estes são capturados pelo <b>Airflow</b> onde passam por processamento com <b>Spark</b> e armazenados no <b>Firebase</b>.
+Foi utilizado o protocolo <b>MQTT - Mosquitto</b> juntamente com o <b>Kafka</b> para realizar a coleta dos dados dos sensores e da API. Após a coleta dos dados estes são capturados pelo <b>Airflow</b> onde passam por processamento com <b>Spark</b> e são armazenados no <b>Firebase</b>.
 
 Foi criado as camadas <b>BRONZE/RAW</b>, <b>SILVER</b> e <b>GOLD</b> para o <b>Data Lakehouse</b>.
 
@@ -39,6 +39,8 @@ Foi criado as camadas <b>BRONZE/RAW</b>, <b>SILVER</b> e <b>GOLD</b> para o <b>D
 Autor: <i>Thiago Vilarinho Lemes</i>
 
 Email: `contatothiagolemes@gmail.com`
+
+Likedin: [`Thiago Vilarinho Lemes`](https://www.linkedin.com/in/thiago-l-b1232727/)
 
 <hr>
 
