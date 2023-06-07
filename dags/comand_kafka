@@ -1,0 +1,18 @@
+# Criando Streams no Kafka
+create stream temp_humid(temp float, humid float) with(kafka_topic='topic_data', value_format='delimited')
+
+# Criando Topicos no Kafka
+kafka-topics --bootstrap-server localhost:9092 --topic topic_data --create --partitions 1 
+kafka-topics --bootstrap-server localhost:9092 --topic topic_data --create --partitions 1 --replication-factor 1
+
+# Criar o consumidor do grupo app-cli:
+kafka-console-consumer --bootstrap-server localhost:9092 --topic topic_data --group app-cli
+
+# Criando um producer para o consumer:
+kafka-console-producer --broker-list localhost:9092 --topic topic_data
+
+# Criando o consumidor do grupo app-cli:
+kafka-console-consumer --bootstrap-server 172.25.0.4:9092 --topic topic_data
+
+# Lista os topicos com a descrição dos mesmos
+kafka-topics --bootstrap-server localhost:9092 --topic topic_data  --describe

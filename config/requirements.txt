@@ -1,0 +1,15 @@
+# apache-airflow-providers-common-sql==1.5.0
+# apache-airflow-providers-databricks==4.2.0
+# apache-airflow-providers-apache-hdfs==2.0.0rc2
+apache-airflow-providers-apache-spark==4.0.0
+apache-airflow-providers-google==10.1.0rc1
+apache-airflow-providers-microsoft-azure
+apache-airflow-providers-apache-kafka
+pyspark==3.2.1
+delta-spark==2.0.0
+# s3fs==0.4.2
+# hdfs==2.7.0
+google-cloud-storage
+firebase
+firebase_admin
+kafka-python

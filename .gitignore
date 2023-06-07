@@ -1,0 +1,4 @@
+conf_airflow.env
+var_dags.env
+firebase_key.json
+
